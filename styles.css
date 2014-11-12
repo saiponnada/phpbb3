@@ -1,0 +1,284 @@
+
+#page-body {
+	float: left;
+	width: 75%;
+}
+#rightPanel{
+	font-family: 'Helvetica Neue', Roboto, 'Segoe UI', Calibri, sans-serif;
+	width:25%;
+	float:left;
+}
+/*Twitter feed*/
+#twitterAPI {
+	font-family: 'Helvetica Neue', Roboto, 'Segoe UI', Calibri, sans-serif;
+	color: rgb(41, 47, 51);
+	display: block;
+	font-size: 12px;
+	height: 280px;
+	line-height: 16px;
+	list-style-image: none;
+	list-style-position: outside;
+	list-style-type: none;
+	overflow-x: hidden;
+	overflow-y: scroll;
+	position: relative;
+	text-transform: none;
+	width: 325px;
+	zoom: 1;
+}
+#tweets {
+	color: rgb(41, 47, 51);
+	display: block;
+	font-size: 12px;
+	line-height: 16px;
+	list-style-image: none;
+	list-style-position: outside;
+	list-style-type: none;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-top: 0px;
+	outline-color: rgb(41, 47, 51);
+	outline-style: none;
+	outline-width: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-top: 0px;
+	text-decoration: none;
+	text-transform: none;
+	vertical-align: baseline;
+	width: 301px;
+	zoom: 1;
+}
+#tweets li {
+	border-bottom-color: rgb(232, 232, 232);
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-image-outset: 0px;
+	border-image-slice: 100%;
+	border-image-source: none;
+	border-left-color: rgb(232, 232, 232);
+	border-left-style: solid;
+	border-left-width: 0px;
+	border-right-color: rgb(232, 232, 232);
+	border-right-style: solid;
+	border-right-width: 0px;
+	border-top-color: rgb(232, 232, 232);
+	border-top-style: solid;
+	border-top-width: 0px;
+	color: rgb(41, 47, 51);
+	display: list-item;
+	font-size: 12px;
+	height: 119px;
+	line-height: 16px;
+	list-style-image: none;
+	list-style-position: outside;
+	list-style-type: none;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-top: 0px;
+	outline-color: rgb(41, 47, 51);
+	outline-style: none;
+	outline-width: 0px;
+	padding-bottom: 0px;
+	padding-left: 69px;
+	padding-right: 12px;
+	padding-top: 25px;
+	position: relative;
+	text-align: left;
+	text-decoration: none;
+	text-transform: none;
+	vertical-align: baseline;
+	width: 220px;
+	zoom: 1;
+}
+.tweetHeader{
+	font-family: 'Helvetica Neue', Roboto, 'Segoe UI', Calibri, sans-serif;
+	color: rgb(41, 47, 51);
+	display: block;
+	font-size: 12px;
+	height: 36px;
+	line-height: 16px;
+	list-style-image: none;
+	list-style-position: outside;
+	list-style-type: none;
+	position: relative;
+	text-align: left;
+	text-transform: none;
+	width: 220px;
+}
+
+.headerStyle {
+	background-color: 098ccd;
+	color: #FFFFFF;
+	padding: 5px;
+}
+
+.profileHeader{
+	color: rgb(41, 47, 51);
+	cursor: pointer;
+	display: block;
+	font-size: 12px;
+	height: 18px;
+	line-height: 16px;
+	list-style-image: none;
+	list-style-position: outside;
+	list-style-type: none;
+	position: relative;
+	text-align: left;
+	text-transform: none;
+	width: 220px;
+	zoom: 1;
+}
+
+.fullName{
+	color: rgb(41, 47, 51);
+	cursor: auto;
+	display: inline;
+	font-size: 14px;
+	font-weight: bold;
+	height: auto;
+	line-height: 16px;
+	text-align: left;
+	text-decoration: none;
+	text-transform: none;
+	width: auto;
+	zoom: 1;
+}
+.nickName{
+	color: rgb(112, 112, 112);
+	cursor: auto;
+	direction: ltr;
+	display: inline;
+	font-size: 12px;
+	height: auto;
+	line-height: 18px;
+	list-style-image: none;
+	list-style-position: outside;
+	list-style-type: none;
+	text-align: left;
+	text-transform: none;
+	unicode-bidi: embed;
+	width: auto;
+	zoom: 1;
+}
+.textTweet{
+	clear: both;
+	color: rgb(41, 47, 51);
+	cursor: pointer;
+	display: block;
+	font-size: 14px;
+	height: 96px;
+	line-height: 16px;
+	list-style-image: none;
+	list-style-position: outside;
+	list-style-type: none;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	margin-right: 5px;
+	margin-top: 0px;
+	outline-color: rgb(41, 47, 51);
+	outline-style: none;
+	outline-width: 0px;
+	overflow-x: hidden;
+	overflow-y: hidden;
+	text-align: left;
+	text-decoration: none;
+	text-transform: none;
+	vertical-align: baseline;
+	white-space: pre-wrap;
+	width: 215px;
+	word-wrap: break-word;
+	zoom: 1;
+}
+.color {
+	color: #AA0000;
+}
+#tweets a {
+	color: rgb(0, 132, 180);
+	cursor: auto;
+	display: inline;
+	font-size: 14px;
+	height: auto;
+	line-height: 16px;
+	max-width: 100%;
+	outline-color: rgb(0, 132, 180);
+	outline-style: none;
+	outline-width: 0px;
+	overflow-x: hidden;
+	overflow-y: hidden;
+	text-align: left;
+	text-decoration: none;
+	text-overflow: ellipsis;
+	text-transform: none;
+	white-space: nowrap;
+	width: auto;
+	word-wrap: break-word;
+}
+.avatar{
+	border:none;
+	color: rgb(112, 112, 112);
+	cursor: auto;
+	display: block;
+	height: 48px;
+	left: -57px;
+	line-height: 18px;
+	position: absolute;
+	top: 0px;
+	width: 48px;
+}
+
+/*Udacity List*/
+
+.courseList{
+	height: 150px;
+	overflow-x: hidden;
+	overflow-y: scroll;
+}
+
+.courseSubName h3{
+	color: rgb(41, 47, 51);
+	cursor: auto;
+	display: inline;
+	font-size: 14px;
+	font-weight: bold;
+	height: auto;
+	line-height: 16px;
+	text-align: left;
+	text-decoration: none;
+	text-transform: none;
+	width: auto;
+	border:none;
+	margin-top: 10px;
+}
+.courseSubName a{
+	color: black !Important;
+	padding: 15px;
+	padding-right:0px;
+}
+.courseSubName span{
+	clear: both;
+	display: block;
+	padding: 15px;
+	padding-top: 0px;
+}
+
+.gBooksUL
+{
+	font-family: 'Helvetica Neue', Roboto, 'Segoe UI', Calibri, sans-serif;
+	list-style: none;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	height: 168px;
+	overflow-x: hidden;
+	overflow-y: scroll;
+}
+.gBooksLI a{
+	color: black !Important;
+	display:block;
+	padding-right:0px;
+	margin: 10px;
+}
