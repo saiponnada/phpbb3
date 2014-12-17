@@ -36,21 +36,22 @@ var course;
 	
 	require_once('TwitterAPIExchange.php');
 	/** **/
-	$screenName = 'anirudhkash';
+	$screenName = '';
 	$course = $_GET['course'];
 	$list = str_replace(" ","-",$course);
 	/** Set access tokens here - see: https://dev.twitter.com/apps/ **/
+	/*For security, Keys were not displayed*/
 	$settings = array(
-	    'oauth_access_token' => "66095870-jqRpihYhgd1xBI4coyBVipjNlEEkS3nalINM7mn5L",
-	    'oauth_access_token_secret' => "6ihwiyj4MmfMDzyWG0ADnn8sZ1QcKUseKgT1r1I6UA3U5",
-	    'consumer_key' => "NYpGimR4NmWjLLdBzWd69nrES",
-	    'consumer_secret' => "h8yNwTMJAfGTxqFU36NsvqZzHwhlIsn5HZC58AIhLrkP2h87SS"
+	    'oauth_access_token' => "",
+	    'oauth_access_token_secret' => "",
+	    'consumer_key' => "",
+	    'consumer_secret' => ""
 	);
 
-	$consumer="NYpGimR4NmWjLLdBzWd69nrES";
-	$consumersecret="h8yNwTMJAfGTxqFU36NsvqZzHwhlIsn5HZC58AIhLrkP2h87SS";
-	$accesstoken="66095870-jqRpihYhgd1xBI4coyBVipjNlEEkS3nalINM7mn5L";
-	$accesstokensecret="6ihwiyj4MmfMDzyWG0ADnn8sZ1QcKUseKgT1r1I6UA3U5";
+	$consumer="";
+	$consumersecret="";
+	$accesstoken="";
+	$accesstokensecret="";
 	//https://api.twitter.com/1.1/statuses/user_timeline.json
 	$url='https://api.twitter.com/1.1/lists/statuses.json';
 	
